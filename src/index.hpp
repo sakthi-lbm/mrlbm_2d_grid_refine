@@ -3,8 +3,14 @@
 
 #include "var.hpp"
 
-#define IDX(x, y) (x + y * NX)
-#define FIDX(x, y, q) ((q * NX * NY) + x + (y * NX))
+inline int IDX(int x, int y)
+{
+    return x + (y * NX);
+}
 
+inline int FIDX(int x, int y, int q)
+{
+    return (q * NX * NY) + x + (y * NX);
+}
 
 #endif

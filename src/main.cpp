@@ -54,7 +54,8 @@ int main()
 
         for (size_t innter_iter = 0; innter_iter < GRID_RATIO; innter_iter++)
         {
-                }
+            
+        }
     }
 
     free_host_memory_refine(hc_Mom, hf_Mom);
