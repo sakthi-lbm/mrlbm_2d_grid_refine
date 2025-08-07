@@ -7,6 +7,7 @@
 #include "global_struct.hpp"
 #include COLREC
 #include CASE_BOUNDARY
+#include CASE_BOUNDARY_GRID
 
 void MomCollisionStreaming(nodeVar h_fMom);
 void calculate_moments(nodeVar h_fMom);

@@ -6,6 +6,7 @@
 struct nodeVar
 {
     unsigned int *nodeType;
+    unsigned int *iscopied;
     dfloat *rho;
     dfloat *ux;
     dfloat *uy;

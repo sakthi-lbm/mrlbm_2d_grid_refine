@@ -33,4 +33,22 @@ const size_t MEM_SIZE_NODES = sizeof(dfloat) * NUM_NODES;
 const size_t MEM_SIZE_NODETYPE = sizeof(unsigned int) * NUM_NODES;
 const size_t MEM_SIZE_NODES_Q = sizeof(dfloat) * NUM_NODES_Q;
 
+#ifdef GRID_REFINE
+
+const size_t NUM_NODES_COARSE = NX_COARSE * NY_COARSE;
+const size_t NUM_NODES_Q_COARSE = NUM_NODES_COARSE * Q;
+
+const size_t MEM_SIZE_NODES_COARSE = sizeof(dfloat) * NUM_NODES_COARSE;
+const size_t MEM_SIZE_NODETYPE_COARSE = sizeof(unsigned int) * NUM_NODES_COARSE;
+const size_t MEM_SIZE_NODES_Q_COARSE = sizeof(dfloat) * NUM_NODES_Q_COARSE;
+
+const size_t NUM_NODES_FINE = NX_FINE * NY_FINE;
+const size_t NUM_NODES_Q_FINE = NUM_NODES_FINE * Q;
+
+const size_t MEM_SIZE_NODES_FINE = sizeof(dfloat) * NUM_NODES_FINE;
+const size_t MEM_SIZE_NODETYPE_FINE = sizeof(unsigned int) * NUM_NODES_FINE;
+const size_t MEM_SIZE_NODES_Q_FINE = sizeof(dfloat) * NUM_NODES_Q_FINE;
+
+#endif
+
 #endif

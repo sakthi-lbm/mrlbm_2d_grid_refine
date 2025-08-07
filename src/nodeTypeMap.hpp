@@ -24,6 +24,15 @@
 #define SOUTH_WEST (8)
 #define SOUTH_EAST (4)
 
+//Grid refinement
+#define NODE_1 (201)
+#define NODE_2 (202)
+#define NODE_3 (203)
+#define NODE_4 (204)
+#define NODE_F2C (205)
+#define NODE_C2F (301)
+
+
 #define MISSING_DEFINITION (0b11111111111111111111111111111111)
 
 #endif
